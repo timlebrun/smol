@@ -1,5 +1,6 @@
 {
     "name": "timlebrun/smol",
+    "description": "Smol widget manager. Not really for production right now but kinda works fine.",
     "authors": [
         {
             "name": "Tim",
