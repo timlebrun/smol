@@ -1,0 +1,10 @@
+{
+    "name": "timlebrun/smol",
+    "authors": [
+        {
+            "name": "Tim",
+            "email": "me@timlebrun.fr"
+        }
+    ],
+    "require": {}
+}
