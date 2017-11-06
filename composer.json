@@ -14,7 +14,7 @@
     "autoload": {
         "autoload": {
             "psr-4": {"Tim\\Smol\\": "src/"}
-        },
+        }
     },
     "extra": {
         "laravel": {
