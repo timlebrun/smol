@@ -7,5 +7,23 @@
             "email": "me@timlebrun.fr"
         }
     ],
-    "require": {}
+    "require": {
+        "laravel/framework": "5.5.*",
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "autoload": {
+            "psr-4": {"Tim\\Smol\\": "src/"}
+        },
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tim\\Smol\\SmolServiceProvider"
+            ],
+            "aliases": {
+                "Smol": "Tim\\Smol\\Facades\\Smol"
+            }
+        }
+    }
 }
